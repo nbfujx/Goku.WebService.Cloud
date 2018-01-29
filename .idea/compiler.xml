@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Goku.WebService.Cloud.api" />
+        <module name="Goku.WebService.Cloud.common" />
+        <module name="Goku.WebService.Cloud.config" />
+        <module name="Goku.WebService.Cloud.eureka" />
+        <module name="Goku.WebService.Cloud.service" />
+        <module name="Goku.WebService.Cloud.util" />
+        <module name="Goku.WebService.Cloud.zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Goku.WebService.Cloud" target="1.5" />
+      <module name="Goku.WebService.Cloud.api" target="1.5" />
+      <module name="Goku.WebService.Cloud.common" target="1.5" />
+      <module name="Goku.WebService.Cloud.config" target="1.5" />
+      <module name="Goku.WebService.Cloud.eureka" target="1.5" />
+      <module name="Goku.WebService.Cloud.service" target="1.5" />
+      <module name="Goku.WebService.Cloud.util" target="1.5" />
+      <module name="Goku.WebService.Cloud.Vue" target="1.5" />
+      <module name="Goku.WebService.Cloud.zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

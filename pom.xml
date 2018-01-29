@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.goku</groupId>
+    <artifactId>Goku.WebService.Cloud.Vue</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Goku.WebService.Cloud.eureka</module>
+        <module>Goku.WebService.Cloud.api</module>
+        <module>Goku.WebService.Cloud.config</module>
+        <module>Goku.WebService.Cloud.zuul</module>
+        <module>Goku.WebService.Cloud.common</module>
+        <module>Goku.WebService.Cloud.util</module>
+        <module>Goku.WebService.Cloud.service</module>
+    </modules>
+
+
+</project>
