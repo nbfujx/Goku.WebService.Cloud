@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.config/Goku.WebService.Cloud.config.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.config/Goku.WebService.Cloud.config.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.eureka/Goku.WebService.Cloud.eureka.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.eureka/Goku.WebService.Cloud.eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.model/Goku.WebService.Cloud.model.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.model/Goku.WebService.Cloud.model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.sys.webapi/Goku.WebService.Cloud.sys.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.sys.webapi/Goku.WebService.Cloud.sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.sys.service/Goku.WebService.Cloud.sys.service.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.sys.service/Goku.WebService.Cloud.sys.service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.sys.webapi/Goku.WebService.Cloud.sys.webapi.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.sys.webapi/Goku.WebService.Cloud.sys.webapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.util/Goku.WebService.Cloud.util.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.util/Goku.WebService.Cloud.util.iml" />
