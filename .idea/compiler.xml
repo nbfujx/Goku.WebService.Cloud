@@ -23,12 +23,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Goku.WebService.Cloud.api" />
+        <module name="Goku.WebService.Cloud.blog.service" />
+        <module name="Goku.WebService.Cloud.blog.webapi" />
         <module name="Goku.WebService.Cloud.common" />
         <module name="Goku.WebService.Cloud.config" />
         <module name="Goku.WebService.Cloud.eureka" />
         <module name="Goku.WebService.Cloud.Model" />
+        <module name="Goku.WebService.Cloud.model" />
         <module name="Goku.WebService.Cloud.service" />
         <module name="Goku.WebService.Cloud.sys" />
+        <module name="Goku.WebService.Cloud.sys.service" />
+        <module name="Goku.WebService.Cloud.sys.webapi" />
         <module name="Goku.WebService.Cloud.util" />
         <module name="Goku.WebService.Cloud.zuul" />
       </profile>
@@ -36,12 +41,17 @@
     <bytecodeTargetLevel>
       <module name="Goku.WebService.Cloud" target="1.6" />
       <module name="Goku.WebService.Cloud.api" target="1.6" />
+      <module name="Goku.WebService.Cloud.blog.service" target="1.6" />
+      <module name="Goku.WebService.Cloud.blog.webapi" target="1.6" />
       <module name="Goku.WebService.Cloud.common" target="1.6" />
       <module name="Goku.WebService.Cloud.config" target="1.6" />
       <module name="Goku.WebService.Cloud.eureka" target="1.6" />
       <module name="Goku.WebService.Cloud.Model" target="1.6" />
+      <module name="Goku.WebService.Cloud.model" target="1.6" />
       <module name="Goku.WebService.Cloud.service" target="1.6" />
       <module name="Goku.WebService.Cloud.sys" target="1.6" />
+      <module name="Goku.WebService.Cloud.sys.service" target="1.6" />
+      <module name="Goku.WebService.Cloud.sys.webapi" target="1.6" />
       <module name="Goku.WebService.Cloud.util" target="1.6" />
       <module name="Goku.WebService.Cloud.Vue" target="1.5" />
       <module name="Goku.WebService.Cloud.zuul" target="1.6" />

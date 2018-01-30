@@ -15,9 +15,11 @@
         <module>Goku.WebService.Cloud.zuul</module>
         <module>Goku.WebService.Cloud.common</module>
         <module>Goku.WebService.Cloud.util</module>
-        <module>Goku.WebService.Cloud.service</module>
+        <module>Goku.WebService.Cloud.sys.service</module>
         <module>Goku.WebService.Cloud.Model</module>
-        <module>Goku.WebService.Cloud.sys</module>
+        <module>Goku.WebService.Cloud.blog.service</module>
+        <module>Goku.WebService.Cloud.blog.webapi</module>
+        <module>Goku.WebService.Cloud.sys.webapi</module>
     </modules>
 
     <parent>
