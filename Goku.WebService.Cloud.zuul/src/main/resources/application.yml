@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8011/eureka/
+server:
+  port: 8091
+spring:
+  application:
+    name: Goku.WebService.Cloud.zuul
+zuul:
+  routes:
+    api-sys:
+      path: /sys/**
+      serviceId: Goku.WebService.Cloud.sys
