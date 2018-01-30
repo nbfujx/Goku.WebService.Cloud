@@ -22,9 +22,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Goku.WebService.Cloud.api" />
+        <module name="Goku.WebService.Cloud.blog.service" />
+        <module name="Goku.WebService.Cloud.blog.webapi" />
+        <module name="Goku.WebService.Cloud.common" />
+        <module name="Goku.WebService.Cloud.config" />
+        <module name="Goku.WebService.Cloud.eureka" />
         <module name="Goku.WebService.Cloud.Model" />
+        <module name="Goku.WebService.Cloud.model" />
         <module name="Goku.WebService.Cloud.service" />
         <module name="Goku.WebService.Cloud.sys" />
+        <module name="Goku.WebService.Cloud.sys.service" />
+        <module name="Goku.WebService.Cloud.sys.webapi" />
+        <module name="Goku.WebService.Cloud.util" />
+        <module name="Goku.WebService.Cloud.zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
