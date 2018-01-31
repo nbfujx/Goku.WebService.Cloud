@@ -9,7 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Goku.WebService.Cloud.sys.service</artifactId>
+    <artifactId>Goku.WebService.Cloud.sys</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Goku.WebService.Cloud.sys.server</module>
+        <module>Goku.WebService.Cloud.sys.client</module>
+    </modules>
 
 
 </project>

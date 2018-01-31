@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Goku.WebService.Cloud.blog.webapi</artifactId>
+    <artifactId>Goku.WebService.Cloud.blog</artifactId>
 
 
 </project>
