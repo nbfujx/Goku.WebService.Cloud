@@ -2,9 +2,22 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8011/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
 server:
   port: 8071
 spring:
   application:
-    name: Goku.WebService.Cloud.sys.service
-
+    name: Goku.WebService.Cloud.sys.server
+  datasource:
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/goku_db
+    username: root
+mybatis:
+  mapper-locations: classpath:mapping/**/*.xml
+  type-aliases-package: com.goku.cloud.model

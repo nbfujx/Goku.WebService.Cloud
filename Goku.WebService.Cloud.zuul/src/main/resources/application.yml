@@ -11,8 +11,8 @@ zuul:
   routes:
     api-sys:
       path: /sys/**
-      serviceId: Goku.WebService.Cloud.sys.webapi
+      serviceId: Goku.WebService.Cloud.sys.client
     api-blog:
       path: /blog/**
-      serviceId: Goku.WebService.Cloud.blog.webapi
+      serviceId: Goku.WebService.Cloud.blog.client
 

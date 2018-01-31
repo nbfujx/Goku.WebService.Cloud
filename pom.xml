@@ -15,9 +15,9 @@
         <module>Goku.WebService.Cloud.zuul</module>
         <module>Goku.WebService.Cloud.common</module>
         <module>Goku.WebService.Cloud.util</module>
-        <module>Goku.WebService.Cloud.Model</module>
         <module>Goku.WebService.Cloud.sys</module>
         <module>Goku.WebService.Cloud.blog</module>
+        <module>Goku.WebService.Cloud.model</module>
     </modules>
 
     <parent>
@@ -34,16 +34,21 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.37</version>
         </dependency>
     </dependencies>
 
