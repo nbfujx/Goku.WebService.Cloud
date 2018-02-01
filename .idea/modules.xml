@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.sys/Goku.WebService.Cloud.sys.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.sys/Goku.WebService.Cloud.sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.sys/Goku.WebService.Cloud.sys.client/Goku.WebService.Cloud.sys.client.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.sys/Goku.WebService.Cloud.sys.client/Goku.WebService.Cloud.sys.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.sys/Goku.WebService.Cloud.sys.server/Goku.WebService.Cloud.sys.server.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.sys/Goku.WebService.Cloud.sys.server/Goku.WebService.Cloud.sys.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.task/Goku.WebService.Cloud.task.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.task/Goku.WebService.Cloud.task.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.util/Goku.WebService.Cloud.util.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.util/Goku.WebService.Cloud.util.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Cloud.zuul/Goku.WebService.Cloud.zuul.iml" filepath="$PROJECT_DIR$/Goku.WebService.Cloud.zuul/Goku.WebService.Cloud.zuul.iml" />
     </modules>
