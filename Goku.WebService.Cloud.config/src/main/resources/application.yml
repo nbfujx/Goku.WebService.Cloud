@@ -2,6 +2,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8011/eureka/
+    healthcheck:
+           enabled: true
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
 server:
   port: 8021
 spring:
@@ -11,7 +16,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/nbfujx/Goku.WebService.Cloud.config/    # 配置git仓库的地址
+          uri: https://gitee.com/nbfujx/Goku.WebService.Cloud/    # 配置git仓库的地址
           search-paths: config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
           username:                                            # git仓库的账号
           password:

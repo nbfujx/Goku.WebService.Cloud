@@ -2,6 +2,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8011/eureka/
+    healthcheck:
+           enabled: true
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
 server:
   port: 8091
 spring:
