@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.goku.cloud.model.sysUser;
 import com.goku.cloud.sys.controller.sysUserController;
 import com.goku.cloud.sys.remote.sysUserRemote;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

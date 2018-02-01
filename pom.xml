@@ -18,6 +18,7 @@
         <module>Goku.WebService.Cloud.sys</module>
         <module>Goku.WebService.Cloud.blog</module>
         <module>Goku.WebService.Cloud.model</module>
+        <module>Goku.WebService.Cloud.task</module>
     </modules>
 
     <parent>
@@ -28,6 +29,14 @@
     </parent>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>

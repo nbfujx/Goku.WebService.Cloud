@@ -33,6 +33,7 @@
         <module name="Goku.WebService.Cloud.service" />
         <module name="Goku.WebService.Cloud.sys.client" />
         <module name="Goku.WebService.Cloud.sys.server" />
+        <module name="Goku.WebService.Cloud.task" />
         <module name="Goku.WebService.Cloud.util" />
         <module name="Goku.WebService.Cloud.zuul" />
       </profile>
@@ -54,6 +55,7 @@
       <module name="Goku.WebService.Cloud.sys.server" target="1.6" />
       <module name="Goku.WebService.Cloud.sys.service" target="1.6" />
       <module name="Goku.WebService.Cloud.sys.webapi" target="1.6" />
+      <module name="Goku.WebService.Cloud.task" target="1.6" />
       <module name="Goku.WebService.Cloud.util" target="1.6" />
       <module name="Goku.WebService.Cloud.Vue" target="1.5" />
       <module name="Goku.WebService.Cloud.zuul" target="1.6" />
