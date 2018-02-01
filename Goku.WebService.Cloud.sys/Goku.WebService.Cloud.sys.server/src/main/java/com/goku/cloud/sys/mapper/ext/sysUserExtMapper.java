@@ -16,6 +16,4 @@ public interface sysUserExtMapper extends sysUserMapper {
 
     sysUser selectByUsername(String username);
 
-    List<sysUser> selectUserByOrgid(@Param("orgid") String orgid, @Param("orderSort") String orderSort, @Param("orderFiled") String orderFiled);
-
 }

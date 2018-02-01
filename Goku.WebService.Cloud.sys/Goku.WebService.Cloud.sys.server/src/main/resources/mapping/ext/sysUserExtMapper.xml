@@ -15,25 +15,11 @@
         <result column="sort" jdbcType="BIGINT" property="sort" />
         <result column="mobile" jdbcType="VARCHAR" property="mobile" />
     </resultMap>
-    <sql id="sysUser_Column_List">
-        id, username, password, name, sex, status, org_id, email, idcard, is_admin, sort,
-        mobile
-    </sql>
     <select id="selectByUsername" parameterType="java.lang.String" resultMap="sysUserMap">
         select
-        <include refid="sysUser_Column_List" />
+            id, username, password, name, sex, status, org_id, email, idcard, is_admin, sort,
+            mobile
         from sys_user
         where username = #{username,jdbcType=VARCHAR}
-    </select>
-    <select id="selectUserByOrgid"  parameterType="java.lang.String" resultMap="sysUserMap">
-        select
-         <include refid="sysUser_Column_List" />
-        from sys_user where org_id = #{orgid,jdbcType=VARCHAR}
-        <if test="orderFiled != null" >
-            order by  ${orderFiled}
-            <if test="orderSort != null" >
-                ${orderSort}
-            </if>
-        </if>
     </select>
 </mapper>
